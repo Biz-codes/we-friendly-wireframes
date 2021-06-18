@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <title>HTML wireframes - we-friendly</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+      <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+
+  <body>
+    <header role="banner">
+      <h1>we-friendly</h1>
+    </header>
+    <main role="main">      
+        <header>
+            <nav>
+                <button>
+                    <a href='landing-page.html'>Log Out Icon</a>
+                </button>
+                <button>
+                    <a href='reviews.html'>Reviews Icon</a>
+                <button>
+                    <a href='businesses.html'>Businesses Icon</a>
+                </button>
+                <button>
+                    <a href='reviews-by-me.html'>me-friendly Icon</a>
+                </button>            
+            </nav>
+        </header>
+        <h2>Search for businesses and services:</h2>
+        <form>
+            <div>
+                <label for="business-name">business name:</label>
+                <input type="text" name='business-name' id='business-name' />
+            </div>
+            <div>
+                <label for="zipcode">zipcode:</label>
+                <input type="text" name='zipcode' id='zipcode' />
+            </div>
+            <div>
+                <label for="sort-by">sort by:</label>
+                <select name='sort-by' id='sort-by'>
+                    <option value="name">name A-Z</option>
+                    <option value="zipcode">zipcode (closest)</option>
+                </select>
+                <h3>filter by:</h3>
+                <label for="state">state, district, or territory:</label>
+                <select name='state' id='state'>
+                    <option value="AK">AK</option>
+                    <option value="AL">AL</option>
+                    <option value="AR">AR</option>
+                    <option value="AZ">AZ</option>
+                    <option value="CA">CA</option>
+                    <option value="CO">CO</option>
+                    <option value="CT">CT</option>
+                    <option value="DE">DE</option>
+                    <option value="FL">FL</option>
+                    <option value="GA">GA</option>
+                    <option value="HI">HI</option>
+                    <option value="IA">IA</option>
+                    <option value="ID">ID</option>
+                    <option value="IL">IL</option>
+                    <option value="IN">IN</option>
+                    <option value="KS">KS</option>
+                    <option value="KY">KY</option>
+                    <option value="LA">LA</option>
+                    <option value="MA">MA</option>
+                    <option value="MD">MD</option>
+                    <option value="ME">ME</option>
+                    <option value="MI">MI</option>
+                    <option value="MN">MN</option>
+                    <option value="MO">MO</option>
+                    <option value="MS">MS</option>
+                    <option value="MT">MT</option>
+                    <option value="NC">NC</option>
+                    <option value="ND">ND</option>
+                    <option value="NE">NE</option>
+                    <option value="NH">NH</option>
+                    <option value="NJ">NJ</option>
+                    <option value="NM">NM</option>
+                    <option value="NV">NV</option>
+                    <option value="NY">NY</option>
+                    <option value="OH">OH</option>
+                    <option value="OK">OK</option>
+                    <option value="OR">OR</option>
+                    <option value="PA">PA</option>
+                    <option value="RI">RI</option>
+                    <option value="SC">SC</option>
+                    <option value="SD">SD</option>
+                    <option value="TN">TN</option>
+                    <option value="TX">TX</option>
+                    <option value="UT">UT</option>
+                    <option value="VA">VA</option>
+                    <option value="VT">VT</option>
+                    <option value="WA">WA</option>
+                    <option value="WI">WI</option>
+                    <option value="WV">WV</option>
+                    <option value="WY">WY</option>
+                    <option value="DC">DC</option>
+                    <option value="AS">AS</option>
+                    <option value="GU">GU</option>
+                    <option value="MP">MP</option>
+                    <option value="PR">PR</option>
+                    <option value="VI">VI</option>
+                </select>
+                <label for="business-type">business/service type:</label>
+                <select>
+                    <option value="restaurant-bar">restaurant/bar</option>
+                    <option value="shopping">shopping</option>
+                    <option value="hotel/accommodations">hotel/accommodations</option>
+                    <option value="service">service</option>
+                    <option value="housing/realty">housing/realty</option>
+                    <option value="education">education</option>
+                    <option value="healthcare">healthcare</option>
+                </select>
+            </div>
+            <button type='submit'>search</button>            
+        </form>        
+        <div class="results">
+            <h3>Results:</h3>
+            <div class="result">
+                <h4>Woodstar Cafe</h4>
+                <p>restaurant/bar</p>
+                <p>60 Masonic Street</p>
+                <p>Northampton, MA 01060</p>
+                <p><a href='woodstarcafe.com'>woodstarcafe.com</a></p>
+                <p><a href='reviews.html'>reviews</a></p>
+                <a href='add-review.html'><button>write a review</button></a>
+                <a href='businesses-added'><button>remember</button></a>
+            </div>
+            <div class="result">
+                <h4>Mill Valley Estates</h4>
+                <p>housing/realty</p>
+                <p>420 Riverglade Drive</p>
+                <p>Amherst, MA 01002</p>
+                <p><a href='millvalleyapts.com'>millvalleyapts.com</a></p>
+                <p><a href='reviews.html'>reviews</a></p>
+                <a href='add-review.html'><button>write a review</button></a>
+                <a href='businesses-added'><button>remember</button></a>
+            </div>
+            <div class="result">
+                <h4>The Colonel Williams Inn</h4>
+                <p>hotel/accommodations</p>
+                <p>111 Staver Road</p>
+                <p>Brattleboro, VT 05344</p>
+                <p><a href='thecolonelwilliamsinn.com'>thecolonelwilliamsinn.com</a></p>
+                <p><a href='reviews.html'>reviews</a></p>
+                <a href='add-review.html'><button>write a review</button></a>
+                <a href='businesses-added'><button>remember</button></a>
+            </div>
+            <button>clear search</button>
+            <button>
+                <a href= 'add-business.html'>add a business</a>
+            </button>
+        </div>
+    </main>
+    <footer role="content-info">Footer</footer>
+  </body>
+
+</html>
